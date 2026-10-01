@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenWeather</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="cloud cloud1"></div>
+<div class="cloud cloud2"></div>
+
+<main class="container">
+
+<header>
+<span class="material-symbols-rounded icon">partly_cloudy_day</span>
+<h1>OpenWeather</h1>
+<p>Consulte o clima da sua cidade em segundos</p>
+</header>
+
+
+<div class="search">
+
+<input id="cidade" placeholder="Digite uma cidade...">
+
+<button onclick="buscarClima()">
+<span class="material-symbols-rounded">search</span>
+Buscar
+</button>
+
+</div>
+
+
+<div id="resultado" class="resultado">
+<p>Pesquise uma cidade para ver o clima</p>
+</div>
+
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
