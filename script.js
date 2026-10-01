@@ -52,22 +52,22 @@ resultado.innerHTML=`
 <div class="weather-info">
 
 <div class="info">
-🌡️ Temperatura: ${dados.main.temp.toFixed(1)}°C
+Temperatura: ${dados.main.temp.toFixed(1)}°C
 </div>
 
 
 <div class="info">
-🤔 Sensação térmica: ${dados.main.feels_like.toFixed(1)}°C
+Sensação térmica: ${dados.main.feels_like.toFixed(1)}°C
 </div>
 
 
 <div class="info">
-💧 Umidade: ${dados.main.humidity}%
+Umidade: ${dados.main.humidity}%
 </div>
 
 
 <div class="info">
-☁️ ${dados.weather[0].description}
+${dados.weather[0].description}
 </div>
 
 </div>
@@ -80,7 +80,7 @@ resultado.innerHTML=`
 
 }catch(error){
 
-resultado.innerHTML=`<p>❌ ${error.message}</p>`;
+resultado.innerHTML=`<p>${error.message}</p>`;
 
 }
 
